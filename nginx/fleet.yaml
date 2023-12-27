@@ -1,4 +1,4 @@
-defaultNamespace: fleet-nginx
+namespace: fleet-nginx
 helm:
   releaseName: nginx-release
   chart: oci://ghcr.io/nginxinc/charts/nginx-ingress
