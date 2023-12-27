@@ -1,0 +1,8 @@
+defaultNamespace: nextcloud
+helm:
+  releaseName: nextcloud
+  chart: nextcloud-aio/nextcloud-aio-helm-chart
+  repo: https://nextcloud.github.io/all-in-one/
+  version: "7.7.1"
+  valuesFiles:
+    - nextcloud-values.yaml
