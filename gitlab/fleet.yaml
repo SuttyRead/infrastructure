@@ -1,0 +1,18 @@
+defaultNamespace: gitlab
+helm:
+  releaseName: gitlab
+  chart: "gitlab"
+  repo: "https://charts.gitlab.io"
+  version: "7.6.1"
+  force: true
+  values:
+    global:
+      edition: ce
+      hosts:
+        domain: sutty.shop
+    certmanager-issuer:
+      email: suttyread@gmail.com
+    certmanager:
+      install: false
+    nginx-ingress:
+      enabled: false
