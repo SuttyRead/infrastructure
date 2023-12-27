@@ -1,4 +1,4 @@
-#defaultNamespace: default
+defaultNamespace: nextcloud
 helm:
   releaseName: nextcloud
   chart: nextcloud-aio-helm-chart
