@@ -4,5 +4,6 @@ helm:
   chart: nextcloud-aio/nextcloud-aio-helm-chart
   repo: https://nextcloud.github.io/all-in-one/
   version: "7.7.1"
+  force: true
   valuesFiles:
     - nextcloud-values.yaml
