@@ -1,4 +1,4 @@
-defaultNamespace: nginx-ingress2
+defaultNamespace: nginx-ingress
 helm:
   releaseName: nginx-release
   chart: oci://ghcr.io/nginxinc/charts/nginx-ingress
