@@ -1,14 +1,14 @@
-DATABASE_PASSWORD:           # TODO! This needs to be a unique and good password!
-FULLTEXTSEARCH_PASSWORD:           # TODO! This needs to be a unique and good password!
-NC_DOMAIN: yourdomain.com          # TODO! Needs to be changed to the domain that you want to use for Nextcloud.
-NEXTCLOUD_PASSWORD:           # TODO! This is the password of the initially created Nextcloud admin with username admin.
-ONLYOFFICE_SECRET:           # TODO! This needs to be a unique and good password!
-RECORDING_SECRET:           # TODO! This needs to be a unique and good password!
-REDIS_PASSWORD:           # TODO! This needs to be a unique and good password!
-SIGNALING_SECRET:           # TODO! This needs to be a unique and good password!
-TALK_INTERNAL_SECRET:           # TODO! This needs to be a unique and good password!
-TIMEZONE: Europe/Berlin          # TODO! This is the timezone that your containers will use.
-TURN_SECRET:           # TODO! This needs to be a unique and good password!
+DATABASE_PASSWORD: GPXrHJdsjMb#Vvu4
+FULLTEXTSEARCH_PASSWORD: 8avRFfp^BsZqRKgP
+NC_DOMAIN: sutty.shop
+NEXTCLOUD_PASSWORD: fSkyGjx%WsxNnDfn
+ONLYOFFICE_SECRET: kNunxNy7y%27J%HZ
+RECORDING_SECRET: ZNPTrKGG)fqp5pKs
+REDIS_PASSWORD: Ipv)nSDgUra9p+3E
+SIGNALING_SECRET: W8N%rSq*vk4FFeUx
+TALK_INTERNAL_SECRET: ga+k77bhb7hT!xKh
+TIMEZONE: Europe/Kyiv
+TURN_SECRET: pzT!j57Ij&CpWnmA
 
 CLAMAV_ENABLED: "no"          # Setting this to "yes" (with quotes) enables the option in Nextcloud automatically.
 COLLABORA_ENABLED: "no"          # Setting this to "yes" (with quotes) enables the option in Nextcloud automatically.
