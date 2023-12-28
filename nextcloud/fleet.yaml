@@ -1,9 +1,9 @@
-#defaultNamespace: nextcloud2
-#helm:
-#  releaseName: nextcloud
-#  chart: nextcloud-aio-helm-chart
-#  repo: https://nextcloud.github.io/all-in-one/
-#  version: "7.6.2"
-#  force: true
-#  valuesFiles:
-#    - nextcloud-aio-values-7.6.2.yaml
+defaultNamespace: nextcloud2
+helm:
+  releaseName: nextcloud
+  chart: nextcloud-aio-helm-chart
+  repo: https://nextcloud.github.io/all-in-one/
+  version: "7.6.2"
+  force: true
+  valuesFiles:
+    - nextcloud-aio-values-7.6.2.yaml
